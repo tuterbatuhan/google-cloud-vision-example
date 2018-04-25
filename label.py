@@ -41,6 +41,8 @@ def main(photo_file):
     service = googleapiclient.discovery.build('vision', 'v1')
     # [END authenticate]
 
+    Scores
+
     # [START construct_request]
     with open(photo_file, 'rb') as image:
         image_content = base64.b64encode(image.read())
